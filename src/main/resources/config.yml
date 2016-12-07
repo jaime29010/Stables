@@ -1,0 +1,112 @@
+horse-name: "&6%player%'s horse"
+gui:
+  size: 9
+  title: '&cPurchase a horse'
+  boughtPrefix: '&e (Bought)'
+  items:
+    0:
+      item:
+        type: DIAMOND
+        name: '&cNormal horse'
+        lore:
+        - '&cSpeed: 3'
+      cost: 10
+      type: 'T1'
+      speed: 3
+      jump: 0
+      #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Horse.Style.html
+      style: 'NONE'
+      #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Horse.Color.html
+      color: 'BLACK'
+      #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Horse.Variant.html
+      variant: 'HORSE'
+      #isNormal will change the color to a random color without including black or white
+      isNormal: true
+      isOnFire: false
+      nauseaTime: 0
+      blindnessTime: 0
+      flies: false
+      isVip: false
+      speedTime: 0
+    1:
+      item:
+        type: DIAMOND
+        name: '&cFire horse'
+        lore:
+        - '&cSpeed: 3'
+      cost: 10
+      type: 'T2'
+      speed: 3
+      jump: 0
+      style: 'NONE'
+      color: 'BLACK'
+      variant: 'HORSE'
+      isNormal: false
+      isOnFire: true
+      #Time go on ticks, 20 ticks = 1 second
+      nauseaTime: 0
+      blindnessTime: 0
+      flies: false
+      isVip: false
+      speedTime: 0
+    2:
+      item:
+        type: DIAMOND
+        name: '&cZombie horse'
+        lore:
+        - '&cSpeed: 3'
+      cost: 10
+      type: 'T3'
+      speed: 3
+      jump: 0
+      style: 'NONE'
+      color: 'BLACK'
+      variant: 'UNDEAD_HORSE'
+      isNormal: false
+      isOnFire: false
+      nauseaTime: 20
+      blindnessTime: 0
+      flies: false
+      isVip: false
+      speedTime: 0
+    3:
+      item:
+        type: DIAMOND
+        name: '&cSkeleton Zombie Horse'
+        lore:
+        - '&cSpeed: 3'
+      cost: 10
+      type: 'T4'
+      speed: 3
+      #Must load all this
+      jump: 0
+      style: 'NONE'
+      color: 'BLACK'
+      variant: 'SKELETON_HORSE'
+      isNormal: false
+      isOnFire: false
+      nauseaTime: 0
+      blindnessTime: 20
+      flies: false
+      isVip: false
+      speedTime: 0
+    4:
+      item:
+        type: DIAMOND
+        name: '&cPegasus horse'
+        lore:
+        - '&cSpeed: 3'
+      cost: 10
+      type: 'T5'
+      speed: 3
+      jump: 0
+      style: 'NONE'
+      color: 'WHITE'
+      variant: 'HORSE'
+      isNormal: false
+      isOnFire: false
+      nauseaTime: 0
+      blindnessTime: 0
+      flies: true
+      isVip: false
+      speedTime: 20

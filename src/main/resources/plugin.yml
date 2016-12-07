@@ -1,0 +1,8 @@
+name: Stables
+version: ${project.version}
+main: com.hemmingfield.stables.Stables
+version: 1.0
+depend: [Vault]
+commands:
+  caballos:
+    description: Display command usage
